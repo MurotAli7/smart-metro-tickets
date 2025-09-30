@@ -59,7 +59,8 @@
 
 
 .tickets-all{
-    width: 760px;
+    width: 100%;
+    max-width: 760px;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -70,9 +71,7 @@
     background-position: center;
     background-size: cover; /* Rasmni divga moslashtirish */
     filter: brightness(0.75);
-   @media screen and (max-width:450px){
-    width: 100%;
-    max-width: 380px;
+   @media (max-width:450px){
    }
 
 }
