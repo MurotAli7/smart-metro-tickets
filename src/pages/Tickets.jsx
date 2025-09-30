@@ -11,10 +11,12 @@ function Tickets() {
     <div>
       <Navbar />
       <div className="container">
-        <h2>Chiptalar</h2>
-        <TicketCard title="1 martalik chipta" price={2000} onBuy={() => handleBuy("1 martalik")} />
-        <TicketCard title="10 martalik chipta" price={18000} onBuy={() => handleBuy("10 martalik")} />
-        <TicketCard title="Oylik abonement" price={60000} onBuy={() => handleBuy("Oylik abonement")} />
+        <h2 className="tickets-title">Chiptalar</h2>
+        <div className="tickets">
+          <TicketCard title="1 martalik chipta" price={2000} onBuy={() => handleBuy("1 martalik")} />
+          <TicketCard title="10 martalik chipta" price={18000} onBuy={() => handleBuy("10 martalik")} />
+          <TicketCard title="Oylik abonement" price={60000} onBuy={() => handleBuy("Oylik abonement")} />
+        </div>
       </div>
     </div>
   );

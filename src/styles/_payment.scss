@@ -1,0 +1,24 @@
+.payment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.payment-title{
+    font-size: 30px;
+}
+
+
+.pay-btn-box{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    gap: 1%;
+}
+
+
+.payment-btn{
+    width: 200px;
+}

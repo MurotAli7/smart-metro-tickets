@@ -12,10 +12,17 @@ function Dashboard() {
           <p className="user-balans">Balans: 25 000 so'm</p>
           <div className="ticket-cards">
             <div className="tickets-onse">
-              <p className="dashboard-onse-text">Sizda 3 ta birmartalik chipta bor</p>
+              <p className="dashboard-text">Sizda 3 ta birmartalik chipta bor</p>
+              <button className="dashboard-btn-use-ticket">Chiptadan foydalanish</button>
             </div>
-            <div className="tickets-motnly"></div>
-            <div className="tickets-all"></div>
+            <div className="tickets-motnly">
+              <p className="dashboard-text">Sizda 2 ta 10 martalik chipta bor</p>
+              <button className="dashboard-btn-use-ticket">Chiptadan foydalanish</button>
+            </div>
+            <div className="tickets-all">
+              <p className="dashboard-text">Sizda oylik abonoment mavjud emas</p>
+              <button className="dashboard-btn-use-ticket">Chiptadan foydalanish</button>
+            </div>
           </div>
           <div className="dashboard-btn-box">
             <Link className="dashboard-btn" to="/tickets"><button>Chipta olish</button></Link>

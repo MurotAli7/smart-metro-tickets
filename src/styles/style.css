@@ -40,6 +40,15 @@
   align-items: center;
   width: 100%;
 }
+@media screen and (max-width: 380px) {
+  .dashboard {
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 .ticket-cards {
   width: 100%;
@@ -58,7 +67,15 @@
   border-radius: 15px;
   border: none;
   position: relative;
-  background-color: rgb(208, 201, 201);
+  background-image: url("../../public/download.png");
+  background-position: center;
+  background-size: cover; /* Rasmni divga moslashtirish */
+  filter: brightness(0.8);
+}
+@media screen and (max-width: 380px) {
+  .tickets-onse {
+    width: 95%;
+  }
 }
 
 .tickets-motnly {
@@ -69,7 +86,16 @@
   align-items: center;
   border-radius: 15px;
   border: none;
-  background-color: rgb(208, 201, 201);
+  background-repeat: no-repeat;
+  background-image: url("../../public/Types-of-concession-tickets-1024x538.jpg");
+  background-position: center;
+  background-size: cover; /* Rasmni divga moslashtirish */
+  filter: brightness(0.75);
+}
+@media screen and (max-width: 380px) {
+  .tickets-motnly {
+    width: 95%;
+  }
 }
 
 .tickets-all {
@@ -80,7 +106,15 @@
   align-items: center;
   border-radius: 15px;
   border: none;
-  background-color: rgb(208, 201, 201);
+  background-image: url("../../public/sell-more-tickets.jpg");
+  background-position: center;
+  background-size: cover; /* Rasmni divga moslashtirish */
+  filter: brightness(0.75);
+}
+@media screen and (max-width: 380px) {
+  .tickets-all {
+    width: 95%;
+  }
 }
 
 .dashboard-btn-box {
@@ -95,8 +129,96 @@
   width: 100%;
 }
 
-.dashboard-text-onse {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+.dashboard-text {
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(183, 253, 230);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.dashboard-btn-use-ticket {
+  width: 230px;
+  margin-top: 160px;
+}
+
+@media screen and (max-width: 380px) {
+  .dashboard-title {
+    text-align: center;
+  }
+}
+
+.ticketscard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 360px;
+  background-color: lavender;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+}
+
+.ticketscard {
+  align-items: center;
+}
+
+.ticket-buy {
+  width: 230px;
+}
+
+.tickets {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.payment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.payment-title {
+  font-size: 30px;
+}
+
+.pay-btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 1%;
+}
+
+.payment-btn {
+  width: 200px;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.set-inp {
+  width: 350px;
+}
+
+.set-btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.set-btn {
+  width: 170px;
 }/*# sourceMappingURL=style.css.map */
