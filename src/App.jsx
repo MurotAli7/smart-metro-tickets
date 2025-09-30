@@ -7,6 +7,7 @@ import Tickets from "./pages/Tickets";
 import Payment from "./pages/Payment";
 import QRPage from "./pages/QRPage";
 import Settings from "./pages/Settings";
+import "../src/styles/style.css";
 
 function App() {
   return (
