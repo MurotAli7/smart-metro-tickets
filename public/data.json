@@ -1,0 +1,8 @@
+[
+    { "name": "New York", "lat": 40.7128, "lng": -74.006, "temp": 30 },
+    { "name": "Moscow", "lat": 55.7558, "lng": 37.6173, "temp": -5 },
+    { "name": "Tokyo", "lat": 35.6895, "lng": 139.6917, "temp": 28 },
+    { "name": "Sydney", "lat": -33.8688, "lng": 151.2093, "temp": 22 },
+    { "name": "Iceland", "lat": 64.1355, "lng": -21.8954, "temp": -10 }
+  ]
+  
