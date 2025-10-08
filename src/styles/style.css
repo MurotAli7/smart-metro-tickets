@@ -5,6 +5,7 @@
   width: 400px;
   border-radius: 18px;
   padding: 20px;
+  margin-top: 150px;
   background-color: rgba(255, 255, 255, 0.962);
 }
 
@@ -40,7 +41,7 @@
   align-items: center;
   width: 100%;
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 450px) {
   .dashboard {
     width: 100%;
     max-width: 380px;
@@ -72,7 +73,7 @@
   background-size: cover; /* Rasmni divga moslashtirish */
   filter: brightness(0.8);
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 450px) {
   .tickets-onse {
     width: 95%;
   }
@@ -92,14 +93,15 @@
   background-size: cover; /* Rasmni divga moslashtirish */
   filter: brightness(0.75);
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 450px) {
   .tickets-motnly {
     width: 95%;
   }
 }
 
 .tickets-all {
-  width: 760px;
+  width: 100%;
+  max-width: 760px;
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -111,12 +113,6 @@
   background-size: cover; /* Rasmni divga moslashtirish */
   filter: brightness(0.75);
 }
-@media screen and (max-width: 380px) {
-  .tickets-all {
-    width: 95%;
-  }
-}
-
 .dashboard-btn-box {
   width: 95%;
   display: flex;
@@ -143,7 +139,7 @@
   margin-top: 160px;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 450px) {
   .dashboard-title {
     text-align: center;
   }

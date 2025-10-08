@@ -8,7 +8,6 @@ import Payment from "./pages/Payment";
 import QRPage from "./pages/QRPage";
 import Settings from "./pages/Settings";
 import "../src/styles/style.css";
-import Globus from "./pages/globe";
 
 function App() {
   return (
@@ -22,7 +21,6 @@ function App() {
         <Route path="/qr" element={<QRPage />} />
         <Route path="/settings" element={<Settings />} />
       </Routes>
-      <Globus/>
     </div>
   );
 }
